@@ -464,6 +464,46 @@ footer .bottombar {
 .contact .greeting {
   margin-bottom: 60px;
 }
+
+/* Services Page */
+.services {
+  background-color: #DEF1FA;
+  padding: 90px 15px;
+}
+.services .sec-core-services-wrapper {
+  display: block;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.services .sec-core-services-wrapper .card {
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #c8e8f7;
+  box-shadow: 0 1px 4px rgba(135, 159, 171, 0.71);
+}
+.services .sec-core-services-wrapper .card h2 {
+  color: #193549;
+  margin-bottom: 10px;
+}
+.services .sec-core-services-wrapper .card p {
+  color: #333;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .services .sec-core-services-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .services .sec-core-services-wrapper .card {
+    flex-basis: 48%;
+  }
+}
+
 @media (min-width: 768px) {
   .contact .contact-wrapper {
     max-width: 1100px;
